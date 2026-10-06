@@ -1,0 +1,9 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "cachearena",
+  "compatibility_date": "2026-10-06",
+  "assets": { "directory": "./dist", "html_handling": "drop-trailing-slash", "not_found_handling": "404-page" },
+  "routes": [{ "pattern": "cachearena.com", "custom_domain": true }],
+  "workers_dev": true,
+  "send_metrics": false
+}
